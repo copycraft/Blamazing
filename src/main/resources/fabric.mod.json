@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "blamazing",
+  "version": "${version}",
+  "name": "Blamazing",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/blamazing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.copycraftDev.blamazing.client.BlamazingDataGenerator"
+    ],
+    "client": [
+      "org.copycraftDev.blamazing.client.BlamazingClient"
+    ],
+    "main": [
+      "org.copycraftDev.blamazing.Blamazing"
+    ]
+  },
+  "mixins": [
+    "blamazing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

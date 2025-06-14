@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GDG",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "blamazing:blastproof_glass"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "blamazing:blamace",
+    "count": 1
+  }
+}
